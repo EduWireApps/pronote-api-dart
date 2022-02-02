@@ -16,4 +16,5 @@ dev_dependencies:
 dependencies: 
   crypto: ^3.0.1
   encrypt: ^5.0.1
+  http: ^0.13.4
   pointycastle: ^3.5.0

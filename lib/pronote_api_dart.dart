@@ -2,8 +2,10 @@ library pronote_api_dart;
 
 import 'dart:convert' as convert;
 import 'dart:typed_data';
+
 import 'package:crypto/crypto.dart';
 import 'package:encrypt/encrypt.dart';
+import 'package:http/http.dart' as http;
 import 'package:pointycastle/export.dart';
 
 part 'src/client.dart';
