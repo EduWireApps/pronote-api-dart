@@ -1,6 +1,11 @@
 library pronote_api_dart;
 
-part 'src/cas.dart';
+import 'dart:convert' as convert;
+import 'dart:typed_data';
+import 'package:crypto/crypto.dart';
+import 'package:encrypt/encrypt.dart';
+import 'package:pointycastle/export.dart';
+
 part 'src/client.dart';
 part 'src/communication.dart';
 part 'src/encryption.dart';
