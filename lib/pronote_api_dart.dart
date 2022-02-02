@@ -1,8 +1,11 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library pronote_api_dart;
 
-export 'src/pronote_api_dart_base.dart';
+part 'src/cas.dart';
+part 'src/client.dart';
+part 'src/communication.dart';
+part 'src/encryption.dart';
+part 'src/keep_alive.dart';
+part 'src/session.dart';
+part 'src/utils.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+// part 'src/pronote_client/models/period.dart';
